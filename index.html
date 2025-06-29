@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <h2>Register Form</h2>
+      <ul class="list">
+        <li>Home</li>
+        <li>Contact us</li>
+        <li>About</li>
+        <li>Services</li>
+      </ul>
+      <button class="logo">Login</button>
+    </div>
+    <div class="container">
+      <form id="form">
+      <button class="close">close</button>
+      <div class="loginform">
+        <h1>Login</h1>
+        <div class="inputbox">
+          <input type="text" placeholder="Enter your email" id="email" />
+          <i class="uil uil-envelope-alt email"></i>
+        </div>
+        <div class="inputbox">
+          <input
+            type="password"
+            placeholder="Enter your password"
+            id="password"
+          />
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw-hide"></i>
+        </div>
+        <div class="inputbox">
+          <span>
+            <input type="checkbox" id="check" />
+          </span>
+         
+          <label id="rr">Remember me</label>
+          <a href="#" id="forget">Forget password</a>
+        </div>
+        <button class="btn">Login</button>
+        <p>Don't have an account? <a href="#" id="signup">Signup</a></p>
+        <button id="bilal">Update email</button>
+        
+      </div>
+     
+
+      <!-- signupform -->
+
+      <div class="signupform">
+      
+        <h1>Signup</h1>
+        <div class="inputbox">
+          <input type="text" placeholder="Enter your email" id="email" />
+          <i class="uil uil-envelope-alt email"></i>
+        </div>
+        <div class="inputbox">
+          <input
+            type="password"
+            placeholder="Enter your password"
+            id="password"
+          />
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw-hide"></i>
+        </div>
+        <div class="inputbox">
+          <input
+            type="password"
+            placeholder="Enter your confirmpassword"
+            id="confirmpassword"
+          />
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw-hide"></i>
+        </div>
+        
+        <div class="inputbox">
+          <span>
+            <input type="checkbox" id="check" />
+          </span>
+          <label id="rr">  Remember me</label>
+          <a href="#" id="forget">Forget password</a>
+        </div>
+        <button class="btn">Signup</button>
+        <p>Already have an account? <a href="#" id="login">Login</a></p>
+      </div>
+    </div>
+
+   
+
+    
+    </form>
+    
+    
+    
+    
+    <script src="script.js"></script>
+    
+  </body>
+</html>
